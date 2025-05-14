@@ -1,0 +1,85 @@
+.reports-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  background: #f0f4f8;
+  min-height: 100vh;
+  background-color: white;
+}
+
+/* Task List */
+.task-list {
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Task Card */
+.task-card {
+  background: #ffffff;
+  border-left: 6px solid #6a1b9a; /* Accent color */
+  border-radius: 10px;
+  padding: 18px 22px;
+  margin-bottom: 18px;
+  box-shadow: 0 4px 12px rgba(106, 27, 154, 0.1);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(106, 27, 154, 0.15);
+}
+
+/* Task Title */
+.task-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #4a148c;
+}
+
+/* Task Status */
+.task-status {
+  font-size: 1.05rem;
+  color: #5c6bc0;
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  width: fit-content;
+}
+
+/* Responsive Design */
+
+/* Tablets and Larger Smartphones */
+@media (min-width: 600px) {
+  .task-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .task-title {
+    margin-bottom: 0;
+  }
+}
+
+/* Larger Tablets and Desktops */
+@media (min-width: 900px) {
+  .task-list {
+    padding: 24px;
+  }
+
+  .task-card {
+    padding: 24px 28px;
+  }
+
+  .task-title {
+    font-size: 1.4rem;
+  }
+
+  .task-status {
+    font-size: 1.1rem;
+  }
+}

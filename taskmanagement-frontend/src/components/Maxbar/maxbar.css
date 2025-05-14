@@ -1,0 +1,60 @@
+.maxbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 220px; /* same as sidebar width */
+  margin-top: 70px; /* same as header height */
+  padding: 20px;
+  overflow-y: auto;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  top: 0;
+  z-index: 1000;
+}
+/* 
+.maxbar-left h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.maxbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #f1f3f5;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.search-box input {
+  border: none;
+  background: transparent;
+  outline: none;
+  margin-right: 8px;
+}
+
+.search-box i {
+  color: #888;
+}
+
+.profile-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+} */
+
+/* Responsive layout */
+/* @media screen and (max-width: 768px) {
+  .maxbar-container {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 70px;
+    padding: 15px;
+  }
+} */
