@@ -153,7 +153,7 @@ const Dashboard = () => {
 
   return (
     <div className="main-container">
-      <Header onSearch={handleSearch} />
+      {/* <Header onSearch={handleSearch} /> */}
       <div className="cr">
         <Charts tasks={tasks} />
       </div>
