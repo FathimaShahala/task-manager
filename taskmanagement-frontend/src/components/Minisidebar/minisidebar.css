@@ -77,22 +77,3 @@
   flex-grow: 1;
   transition: margin-left 0.3s ease-in-out;
 }
-
-/* Responsive styles */
-/* @media (max-width: 768px) {
-  .dashboard-container {
-    transform: translateX(-100%);
-  }
-
-  .dashboard-container.show {
-    transform: translateX(0);
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-
-  .content {
-    margin-left: 0;
-  }
-} */
